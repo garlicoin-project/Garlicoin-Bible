@@ -4,7 +4,9 @@
 
 ## Table of Contents
 [Windows](#windows)
+
 [Mac](#mac)
+
 [Linux](#linux)
 
 ## Windows
