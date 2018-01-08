@@ -11,13 +11,20 @@
 
 ## Windows
 
-[Guide to building the source (Testnet)]()
-[Guide to mining]()
+[Guide to building the source (Testnet)](Windows/Build_TestNet.md)
+
+[Guide to GPU mining]()
 
 ## Mac
 
-[Guide to building the source (Testnet)]()
+[Guide to building the source (Testnet)](Mac/Build_TestNet.md)
 
 ## Linux
 
-[Guide to building the source (Testnet)]()
+[Guide to building the source (Testnet)](Linux/Build_TestNet.md)
+
+## Todo
+
+Guide to mining - ALl 3
+
+Guide to GPU Mining - Mac and Linux
