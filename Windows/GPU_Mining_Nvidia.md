@@ -130,9 +130,13 @@ TLDR: If you're mining in a pool and you're not seeing your coins in your wallet
 ### Big ups to Pandawan for this guide, Feel free to donate to him here:
 
 BTC: 13xqEPwdfkYFVdQvF596k91mWeUHRJTRjk
+
 LTC: LhrWcYnXxnA3TcznRRvkfuZ8TVYNJ2nisU
+
 BCH: 1PidoMufaqTyFMgdn37Gf4fCHf1GAKZT8w
 
+
 You should probably wait and donate when real GRLC comes out, but whatever
+
 GRLC (Test): n4KDAVtfgsQ7o4x1DsW69PQT7J38U5Bf7G 
 
