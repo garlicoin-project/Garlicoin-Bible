@@ -126,3 +126,13 @@ You can close the miner and your shares are still there, you just need to wait f
 If you had been there when we mined 16778 you would get payout at 16878
 
 TLDR: If you're mining in a pool and you're not seeing your coins in your wallet, just wait a bit!
+
+### Big ups to Pandawan for this guide, Feel free to donate to him here:
+
+BTC: 13xqEPwdfkYFVdQvF596k91mWeUHRJTRjk
+LTC: LhrWcYnXxnA3TcznRRvkfuZ8TVYNJ2nisU
+BCH: 1PidoMufaqTyFMgdn37Gf4fCHf1GAKZT8w
+
+You should probably wait and donate when real GRLC comes out, but whatever
+GRLC (Test): n4KDAVtfgsQ7o4x1DsW69PQT7J38U5Bf7G 
+
