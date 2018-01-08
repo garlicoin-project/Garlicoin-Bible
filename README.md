@@ -13,7 +13,7 @@
 
 [Guide to building the source (Testnet)](Windows/Build_TestNet.md)
 
-[Guide to GPU mining]()
+[Guide to GPU mining on Nvidia](Windows/GPU_Mining_Nvidia.md)
 
 ## Mac
 

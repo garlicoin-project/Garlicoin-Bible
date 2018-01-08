@@ -16,10 +16,11 @@ Feel free to submit a PR if you feel like there are any changes that should be m
 2. [Solo Mining](#Solo-Mining)
 3. [Solo vs. Pool](#Solo-vs.-Pool)
 4. [How Pool Mining works](#How-Pool-Mining-Works)
+5. [Credits Donate](#Credits-Donate)
 
 Quick Links:
 
-GarlicBread Explorer (see transactions…): [http://explorer.garlicoin.io/](http://explorer.garlicoin.io/)
+GarlicBread Explorer (see transactionsï¿½): [http://explorer.garlicoin.io/](http://explorer.garlicoin.io/)
 
 Pool Mining GUI: [http://5.196.13.45/index.php?page=statistics&action=pool](http://5.196.13.45/index.php?page=statistics&action=pool)
 
@@ -33,7 +34,7 @@ Pool Blocks: [http://5.196.13.45:4000/api/pools/grlc1/blocks](http://5.196.13.45
 
 ## Pool Mining
 
-This uses `@Vilsol#2060’s` mining pool.
+This uses `@Vilsol#2060ï¿½s` mining pool.
 
 ### Step 0: Prerequisites
 Make sure you have a CUDA compatible GPU. This should work with most modern GPUs. (Anything in the 9 or 10 series is 100% going to work). Also make sure you have updated your Nvidia drivers.
@@ -48,14 +49,14 @@ Command Prompt window opened and connected.
 ### Step 2: Setting up ccminer
 Download ccminer from the github repo [here](https://github.com/tpruvot/ccminer/releases). 
 
-If you have a 64bit machine (you probably shouldn’t mine on 32bit anyways), then download the [ccminer-x64-2.2.4-cuda9.7z](https://github.com/tpruvot/ccminer/releases/download/2.2.4-tpruvot/ccminer-x64-2.2.4-cuda9.7z) file. Otherwise, download the [ccminer-x86-2.2.4-cuda9.7z](https://github.com/tpruvot/ccminer/releases/download/2.2.4-tpruvot/ccminer-x86-2.2.4-cuda9.7z) file. Extract all those files into a new directory (location doesn’t matter). 
+If you have a 64bit machine (you probably shouldnï¿½t mine on 32bit anyways), then download the [ccminer-x64-2.2.4-cuda9.7z](https://github.com/tpruvot/ccminer/releases/download/2.2.4-tpruvot/ccminer-x64-2.2.4-cuda9.7z) file. Otherwise, download the [ccminer-x86-2.2.4-cuda9.7z](https://github.com/tpruvot/ccminer/releases/download/2.2.4-tpruvot/ccminer-x86-2.2.4-cuda9.7z) file. Extract all those files into a new directory (location doesnï¿½t matter). 
 
 NOTE: Do not download from source or else you will have to compile the whole program yourself. This might take hours, just download the files above!
 
 ### Step 3: Creating a bat file
 You will want to create a bat file with the commands to setup and start the GPU miner. 
 
-Here’s how to do it. In the same folder, create a new ``RUN-GRLC.bat`` file (Right click > Create New > Text file > Rename it to RUN-GRLC.bat). Inside this file, you want to type this:
+Hereï¿½s how to do it. In the same folder, create a new ``RUN-GRLC.bat`` file (Right click > Create New > Text file > Rename it to RUN-GRLC.bat). Inside this file, you want to type this:
 ```
 ccminer-x64 --algo=scrypt -o stratum+tcp://5.196.13.45:3042 -u {YOUR GARLICOIN ADDRESS HERE} -listen
 Pause
@@ -78,18 +79,18 @@ Run the file and you should be good to go! If you have any issues you can contac
 If you want to stop the process, just press Ctrl + C (when you are in the command prompt window). This should ask if you want to quit, then type y (and press enter).
 
 
-Also, you can check your pool stats (# of shares, total paid, hashrate…) here
+Also, you can check your pool stats (# of shares, total paid, hashrateï¿½) here
 
 [http://5.196.13.45:4000/api/pools/grlc1/miner/YOUR_ADDRESS_HERE/stats](http://5.196.13.45:4000/api/pools/grlc1/miner/YOUR_ADDRESS_HERE/stats)
 
 (Just replace the YOUR ADDRESS HERE to whatever your address is)
 
 ### Troubleshooting:
-If it doesn’t work, try removing the -listen from the ``RUN-GRLC.bat`` file. This might not fix it, but it’s worth a try. If you get strange errors, first try restarting both command prompts. (Both the ``garlicoind -testnet -connect=52.89.91.13`` command, and the GPU mining command).
+If it doesnï¿½t work, try removing the -listen from the ``RUN-GRLC.bat`` file. This might not fix it, but itï¿½s worth a try. If you get strange errors, first try restarting both command prompts. (Both the ``garlicoind -testnet -connect=52.89.91.13`` command, and the GPU mining command).
 
 
 ## Setting up Miner for Solo
-This hasn’t fully been tested, but I guess you could try. 
+This hasnï¿½t fully been tested, but I guess you could try. 
 For now, solo mining is worth it because the difficulty is very low. But once it goes up, solo mining will be next to impossible. 
 
 ### Step 1: Downloading ccminer for Solo
@@ -105,7 +106,7 @@ pause
 And replace the address (mtWqkNC3szbAjwrmcHjbcTzTsyUcjriCQj), to your own. 
 
 ### Step 3: Running
-This should be enough to get you started. Running the RUN-SOLO-GRCL.bat should start mining. This is a bit different from pool mining in that every time you see “Accepted .. yes!” it means that you have actually mined a block rather than gained a share.
+This should be enough to get you started. Running the RUN-SOLO-GRCL.bat should start mining. This is a bit different from pool mining in that every time you see ï¿½Accepted .. yes!ï¿½ it means that you have actually mined a block rather than gained a share.
 
 
 Thanks to @SirFish#7124 and @Equinox Fox#5914 for the Solo Mining info!
@@ -124,4 +125,4 @@ You can close the miner and your shares are still there, you just need to wait f
 
 If you had been there when we mined 16778 you would get payout at 16878
 
-TLDR: If you’re mining in a pool and you’re not seeing your coins in your wallet, just wait a bit!
+TLDR: If youï¿½re mining in a pool and youï¿½re not seeing your coins in your wallet, just wait a bit!
