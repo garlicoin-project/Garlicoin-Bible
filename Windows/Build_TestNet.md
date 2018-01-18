@@ -103,7 +103,7 @@ Once the source code is ready the build steps are below.
 
     PATH=$(echo "$PATH" | sed -e 's/:\/mnt.*//g') # strip out problematic Windows %PATH% imported var
     cd depends
-    make HOST=x86_64-w64-mingw32
+    make HOST=x86_64-w64-mingw32 #Using WSL you might need unfreeze this step by pressing enter when it hangs
     cd ..
     ./autogen.sh # not required when building from tarball
     CONFIG_SITE=$PWD/depends/x86_64-w64-mingw32/share/config.site ./configure --prefix=/
@@ -143,7 +143,7 @@ Then build using:
 
 ## Depends system
 
-For further documentation on the depends system see [README.md](../depends/README.md) in the depends directory.
+For further documentation on the depends system see [README.md](https://github.com/GarlicoinOrg/Garlicoin/blob/master/depends/README.md) in the depends directory.
 
 Installation
 -------------
